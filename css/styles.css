@@ -189,10 +189,20 @@ input:focus, textarea:focus {
     object-fit: cover;
 }
 
-.post-content img {
-    display: block;
-    max-width: 80%;
-    margin: 1em auto
+@media (min-width: 1260px) {
+    .post-content img {
+        display: block;
+        max-width: 80%;
+        margin: 1em auto
+    }
+}
+
+@media (max-width: 1259px) {
+    .post-content img {
+        display: block;
+        max-width: 100%;
+        margin: 1em auto
+    }
 }
 
 .post-page h1 {
